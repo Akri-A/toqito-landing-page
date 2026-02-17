@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'  # Author will configure their domain
+baseURL = 'https://example.org/'  # Will be automatically set by GitHub Actions during deployment
 languageCode = 'en-us'
 title = 'toqito'
 theme = 'PaperMod'

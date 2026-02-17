@@ -57,16 +57,16 @@
 <div class="recent-updates" style="max-width: 900px; margin: 3rem auto; padding: 0 1rem;">
   <h2 style="text-align: center; margin-bottom: 2rem;">Recent Updates</h2>
 
-  <div style="display: grid; gap: 1.5rem;">
+  <div style="display: grid; gap: 2.5rem;">
     {{- range first 3 (where .Site.RegularPages "Section" "in" (slice "blog" "news" "releases")) }}
-    <div style="padding: 1rem; border: 1px solid var(--border); border-radius: 5px;">
-      <h3 style="margin-top: 0;">
+    <div style="padding: 1.5rem; border: 1px solid var(--border); border-radius: 5px;">
+      <h3 style="margin-top: 0; margin-bottom: 1rem;">
         <a href="{{ .Permalink }}" style="text-decoration: none; color: var(--primary);">{{ .Title }}</a>
       </h3>
-      <p style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+      <p style="color: var(--secondary); font-size: 0.9rem; margin-bottom: 1rem;">
         {{ .Date.Format "January 2, 2006" }} • {{ .Section | title }}
       </p>
-      <p>{{ .Summary }}</p>
+      <p style="line-height: 1.6; margin: 0;">{{ .Summary }}</p>
     </div>
     {{- end }}
   </div>

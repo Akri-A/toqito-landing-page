@@ -18,6 +18,8 @@ toqito is an open-source Python library that provides tools for studying various
 - **Entanglement**: Functions for studying entanglement properties
 - **Nonlocality**: Tools for exploring nonlocal phenomena in quantum mechanics
 
+<br>
+
 ## Why toqito?
 
 Quantum information theory involves complex mathematical operations and concepts. toqito simplifies these operations by providing:

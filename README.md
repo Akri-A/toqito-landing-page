@@ -1,4 +1,4 @@
-# Toquito Landing Page
+# toqito Landing Page
 
 Official landing page for the [toqito](https://github.com/vprusso/toqito) project - an open-source Python library for quantum information theory.
 
@@ -16,8 +16,8 @@ This is a Hugo-based static site using the PaperMod theme, designed for automati
 ### 1. Clone the Repository
 
 ```bash
-git clone --recurse-submodules <repository-url>
-cd Toquito_landing_page
+git clone --recurse-submodules https://github.com/Akri-A/toqito
+cd toqito_landing_page
 ```
 
 **Note**: The `--recurse-submodules` flag is important as the PaperMod theme is included as a git submodule.
@@ -54,7 +54,7 @@ The built site will be in the `public/` directory.
 │   └── index.html          # Custom homepage layout
 ├── static/                  # Static assets
 │   ├── images/
-│   │   └── logo.svg        # Toquito logo
+│   │   └── logo.svg        # toqito logo
 │   └── favicon.svg         # Site favicon
 ├── themes/                  # Hugo themes
 │   └── PaperMod/           # PaperMod theme (git submodule)
