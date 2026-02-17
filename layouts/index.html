@@ -3,7 +3,7 @@
 <div class="hero" style="text-align: center; padding: 4rem 1rem;">
   {{- if (fileExists "static/images/logo.svg") }}
   <div class="logo" style="margin-bottom: 2rem;">
-    <img src="/images/logo.svg" alt="toqito logo" style="max-width: 300px; height: auto;" />
+    <img src="{{ "images/logo.svg" | relURL }}" alt="toqito logo" style="max-width: 300px; height: auto;" />
   </div>
   {{- end }}
 
